@@ -1,11 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>{{ page.title }}</title>
-</head>
-<body>
----
+﻿---
 layout:default
 title:我的Blog
 ---
@@ -16,5 +9,3 @@ title:我的Blog
 		<li>{{post.date | date_to_string}}<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
 	{% endfor %}
 </ul>
-</body>
-</html>
